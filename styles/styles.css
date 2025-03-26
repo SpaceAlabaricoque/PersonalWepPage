@@ -1,0 +1,110 @@
+:root {
+  font-family: 'Instrument Sans', sans-serif;
+  color: black;
+  background-color: #79AC78;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  /*background-color: blue;*/
+  /*text-shadow: 3px 2px  #e3d308;*/
+}
+
+.homeLink::before {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  left: 74px;
+  width: 10%;
+  height: 3px;
+  background-color: red;
+  transition: all .5s;
+}
+
+.homeLink:hover::before {
+  width: 100%;
+}
+
+@keyframes blink-underline {
+
+}
+a {
+  text-decoration: none;
+}
+
+.imgPlaceHolderHome {
+  mask-image: linear-gradient(
+    black 85%,
+    transparent
+  )
+}
+
+.tableHeaderMain {
+  position: absolute;
+  top: 20px;
+  left: 260px;
+  font-size: 12px;
+}
+
+.tableHeaderMain tr td{
+  padding-left: 80px;
+}
+
+.tableInfMain {
+  position: relative;
+  top: -59px;
+  left: -115px;
+  width: 1200px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  text-align: center;
+  border: solid 2px  #123524;
+  border-radius: 7px;
+  padding: 25px;
+}
+
+.tableInfMain tr td {
+  padding-left: 40px;
+}
+
+.titleInfMain {
+  position: relative;
+  top: -15px;
+  font-size: 28px;
+}
+
+.mainTableContent p {
+  position: relative;
+  top: -50px;
+  font-size: 20px;
+}
+
+.mainIcons img{
+  width: 28px;
+}
+.mainIcons {
+  position: relative;
+  top: -40px;
+  left: 225px;
+}
+
+.mailMain {
+  position: relative;
+  bottom: 72px;
+  left: 375px;
+  width: 218px;
+  padding-left: 10px;
+  background-color: #79AC78 ;
+}
+
+.infMain{
+  position: absolute;
+  top: 15%;
+}
