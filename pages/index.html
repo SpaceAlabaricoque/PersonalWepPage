@@ -16,31 +16,22 @@
 </head>
 
 <body>
+  <script src="../scripts/copytext.js"></script>
   <header class="tableHeaderMain">
-    <table>
-      <tr>
-        <td>
-          <h1><a class = "homeLink" href="index.html">Inicio</a></h1>
-        </td>
-        <td>
-          <h1><a href="aboutme.html">Sobre Mi</a></h1>
-        </td>
-        <td>
-          <h1><a href="experience.html">Experiencia</a></h1>
-        </td>
-        <td>
-          <h1><a href="education.html">Educación</a></h1>
-        </td>
-      </tr>
-    </table>
+    <nav>
+      <h1><a class="homeLink" href="index.html">Inicio</a></h1>
+      <h1><a href="aboutme.html">Sobre Mi</a></h1>
+      <h1><a href="experience.html">Experiencia</a></h1>
+      <h1><a href="education.html">Educación</a></h1>
+    </nav>
   </header>
 
-  <div class = "infMain">
+  <div class="infMain">
     <table class="tableInfMain">
 
       <tr>
         <td>
-          <div class = "titleInfMain">
+          <div class="titleInfMain">
             <h1>¿Quien soy?</h1>
           </div>
         </td>
@@ -51,7 +42,7 @@
         </td>
       </tr>
       <tr>
-        <td class = "mainTableContent">
+        <td class="mainTableContent">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec placerat est. Fusce molestie blandit
             mi sed ullamcorper. Suspendisse dui dolor, ultricies et mollis et, consequat vitae leo. Pellentesque id
             est at velit bibendum bibendum ut eget nulla. Phasellus ac massa dignissim, hendrerit libero ac, ornare
@@ -61,8 +52,10 @@
         <td>
           <table>
             <tr class="mainIcons">
-              <td><a href="https://www.instagram.com/andaluciajunta/" target="_blank"><img src="../resources/icons/instagramSVGIcon.svg" alt=""></a></td>
-              <td><a href="https://es.linkedin.com/company/junta-de-andalucia" target="_blank"><img src="../resources/icons/linkedin-with-circle-svgrepo-com.svg" alt=""></a></td>
+              <td><a href="https://www.instagram.com/andaluciajunta/" target="_blank"><img
+                    src="../resources/icons/instagramSVGIcon.svg" alt=""></a></td>
+              <td><a href="https://es.linkedin.com/company/junta-de-andalucia" target="_blank"><img
+                    src="../resources/icons/linkedin-with-circle-svgrepo-com.svg" alt=""></a></td>
               <td><a href="https://wa.me/34642352557?text=Hola%20me%20pongo%en%20contacto%etc
 " target="_blank"><img src="../resources/icons/whatsapp-128-svgrepo-com.svg" alt=""></a></td>
             </tr>
@@ -70,8 +63,8 @@
       </tr>
       </tr>
     </table>
-    <div class = "mailMain">
-      noseque@nosecuantos.com
+    <div class="mailMain">
+      <button class = "mailMainButton" onclick="copyText()">noseque@nosecuantos.com</button>
     </div>
   </div>
 
